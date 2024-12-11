@@ -1,0 +1,56 @@
+name: cosmetics
+description: "Cosmetics app."
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/main-screen-header/
+    - assets/images/products/serum/
+    - assets/images/products/cream/
+    - assets/images/products/tonic/
+    - assets/icons/
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter/Inter-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Inter/Inter-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Inter/Inter-SemiBold.ttf
+          weight: 600
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat/Montserrat-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Montserrat/Montserrat-SemiBold.ttf
+          weight: 600
+    - family: Raleway
+      fonts:
+        - asset: assets/fonts/Raleway/Raleway-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Raleway/Raleway-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Raleway/Raleway-Bold.ttf
+          weight: 700
+    - family: VelaSans
+      fonts:
+        - asset: assets/fonts/VelaSans/VelaSans-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/VelaSans/VelaSans-SemiBold.ttf
+          weight: 600
